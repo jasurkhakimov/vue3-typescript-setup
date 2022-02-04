@@ -1,8 +1,10 @@
-import axios from 'axios'
+import axios from 'axios'; 
 
 declare module '@vue/runtime-core' {
-  export interface ComponentCustomProperties {
+  interface ComponentCustomProperties {
     $http: typeof axios
     $validate: (data: object, rule: object) => boolean
   }
 }
+
+export interface ComponentCustomProperties {};

@@ -9,7 +9,10 @@ import { defineComponent } from "vue";
 
 
 export default defineComponent({
-    name: "MainPage"
+    name: "MainPage",
+    mounted() {
+        console.log(this.$http.defaults);
+    }
 });
 
 </script>
