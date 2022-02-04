@@ -1,5 +1,5 @@
 {
-  "name": "vue3-typescript-setup",
+  "name": "vue3-vite-typescript-boilerplate",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
